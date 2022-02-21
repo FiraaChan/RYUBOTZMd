@@ -37,7 +37,7 @@ const setting = JSON.parse(fs.readFileSync('./setting.json'))
     wait: '*SABAR SEDANG DI PROSES ...*',
     done: '*DONE NGAB 😉*',
     }
-    global.thumb = fs.readFileSync('./media/ryuu.jpg')
+    global.thumb = fs.readFileSync('./media/Ryuu.jpg')
     
     //===> INI JUGA GAUSAH DIUBAH
     let file = require.resolve(__filename)
